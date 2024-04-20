@@ -1,0 +1,65 @@
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Merriweather", serif;
+    background-color: bisque;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.formcontainer{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: palevioletred;
+    font-style: italic;
+    font-weight:bold
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-family:"Merriweather", serif; 
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(216, 36, 66);
+}
